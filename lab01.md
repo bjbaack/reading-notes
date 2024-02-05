@@ -1,6 +1,6 @@
-# H1
+# Heading 1
 Author: Bradley Baack
-## H2
+## Heading 2
 Description: This is my reading notes for Lab 01
-### H3
+### Heading 3
 Notes
