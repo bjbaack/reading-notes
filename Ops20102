@@ -1,0 +1,8 @@
+Author: Bradley Baack
+Description: Reading notes for Module 2
+The primary function of a shell is to allow humans to interact with the computer's operating system, operating around the kernel to manage and execute commands.
+Bash locates and executes commands by searching specific directories (e.g., /usr/bin, /bin) to see if a command exists and then executing it if found.
+To determine if your system is running a Bash shell, you can use the command echo $0 in a terminal, which will return "bash" if Bash is the current shell.
+Bash scripting is powerful because it allows for the automation of tasks that would otherwise have to be performed manually. It makes the system scriptable by allowing commands to be listed in a plain-text file for Bash to execute, enhancing efficiency and customization.
+Bash methods like using quick shortcuts in computer tasks, creating simple rules for daily activities, or setting up automatic reminders are ways to make everyday tasks easier and faster, similar to how Bash scripting automates computer processes.
+Resources: https://opensource.com/resources/what-bash Links to an external site.
