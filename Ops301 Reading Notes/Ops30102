@@ -1,0 +1,33 @@
+Reading notes code
+
+# Author: Bradley Baack
+
+## Description: Reading notes for
+
+### 
+
+
+1)  What is a port? Describe it with an analogy that would help a family member understand.
+  - A port is like a door or mailbox on a computer where information comes in or goes out. Just as a house has a specific address, a computer has an IP address, and the doors (ports) are the various entry points for different types of information, like mail for different family members.
+2) What does a port scanner send to a port to check the current status?
+  - A port scanner sends a network request or packet to connect to a specific TCP or UDP port on a computer to check its current status.
+3)  When a port scanner sends a request to connect, what are the three possible responses? Describe them.
+  - Open, Accepted: The computer responds positively, indicating it's ready to receive further information, like someone answering the door and inviting you in.
+Closed, Not Listening: The computer responds but indicates the port is not available for use, similar to someone answering the door but telling you they're not taking visitors.
+Filtered, Dropped, Blocked: The computer does not respond at all, akin to no one answering the door, suggesting either no one is home or they're choosing not to respond.
+4) What is the difference between TCP and UDP?
+  - TCP is like sending a tracked package, ensuring it arrives in order and is checked for. UDP is more like sending a letter quickly without tracking, perfect for when speed trumps detail, like streaming or gaming.
+
+5) List and describe the ports used for the following:
+Telnet: port 23. Used for unsecured remote logins, sending data in plain text.
+SSH: port 22. Secure remote logins and file transfers, encrypting data.
+DNS: port 53. Translates domain names to IP addresses.
+SMTP: port 25. sends emails
+HTTP: port 80. tramsimts webpages
+HTTPS; port 443. secures web browsing and encrytpts data
+RDP: port 3389 connects to remote computers. created by microsoft. 
+
+
+### Resources
+https://www.varonis.com/blog/port-scanning-techniques
+https://www.professormesser.com/network-plus/n10-008/n10-008-video/common-ports-n10-008/
