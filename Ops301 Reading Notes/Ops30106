@@ -1,0 +1,19 @@
+# Author: Bradley Baack
+
+## Description: Reading notes for
+
+### 
+
+
+1) What is the main purpose for implementing NAT on a network?
+  - NAT's main purpose is to let multiple devices go online with just one public IP, helping save IP addresses and boosting security a bit.
+2) At what layer of the OSI model does NAT happen?
+  - NAT operates at the Network layer, which is Layer 3 of the OSI model.
+3) What happens to packets when NAT runs out of addresses in the pool of available IPs?
+  - If NAT runs out of IP addresses, new devices can't connect to the internet until some addresses are freed up.
+4) What disadvantage does using NAT pose for routers?
+  - A downside of NAT for routers is it increases their workload, which can slow down the network and make setting up direct connections tricky for certain applications
+
+# Resources
+https://www.geeksforgeeks.org/network-address-translation-nat/
+
